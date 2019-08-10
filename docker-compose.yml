@@ -8,8 +8,8 @@ services:
       volumes:
         - "/etc/localtime:/etc/localtime:ro"
       environment:
-        - "USER=goranp@gmail.com"
-        - "PASS=b0binamiljenkO!"
+        - "USER=NORDVPN_USERNAME"
+        - "PASS=NORDVPN_PASS"
         - "country=USA"
         - "CATEGORY=P2P"
         - "PROTOCOL=openvpn_udp"
